@@ -160,3 +160,19 @@ import tensorflow
 ```
 
 で問題なくモジュールが読み込まれるかを確認する．エラーが出なければ環境構築はおしまい．
+
+---
+
+jupyter notebookは次のコマンドで実行可能です．
+
+```
+$jubyter notebook 
+```
+
+既にあるファイルを実行する場合は
+
+```
+$jupyter notebook MNISTForMachineLearningBeginners.ipynb
+```
+
+などとするとブラウザか起動し,確認出来ると思います.
