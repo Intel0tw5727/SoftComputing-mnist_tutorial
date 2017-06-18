@@ -163,16 +163,22 @@ import tensorflow
 
 ---
 
-jupyter notebookは次のコマンドで実行可能です．
+2回目以降仮想環境を実行する際には以下のコマンドを入力(エイリアス登録しているかたはそちらで)
 
 ```
-$jubyter notebook 
+$source ~/.pyenv/versions/anaconda3-4.3.1/bin/activate keras
 ```
 
-既にあるファイルを実行する場合は
+jupyter notebookは次のコマンドで実行可能．
+
+```
+$jupyter notebook 
+```
+
+既にあるファイルを実行する場合は，
 
 ```
 $jupyter notebook MNISTForMachineLearningBeginners.ipynb
 ```
 
-などとするとブラウザか起動し,確認出来ると思います.
+などとするとブラウザか起動し,確認ができる.フォルダ指定する際も同様．
