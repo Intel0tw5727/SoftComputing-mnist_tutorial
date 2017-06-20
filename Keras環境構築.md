@@ -182,3 +182,20 @@ $jupyter notebook MNISTForMachineLearningBeginners.ipynb
 ```
 
 などとするとブラウザか起動し,確認ができる.フォルダ指定する際も同様．
+
+---
+
+### 追記(2017/06/20)
+グラフ描画モジュールを入れ忘れていたので，仮想環境を実行後に
+
+```
+pip install matplotlib
+```
+
+を行ってから
+
+```
+jupyter notebook
+```
+
+をターミナル上で実行してください
