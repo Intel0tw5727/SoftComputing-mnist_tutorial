@@ -200,6 +200,5 @@ jupyter notebook
 
 をターミナル上で実行してください
 
-またfish(friendly interactive shell)を使っている方はsourceからエラーを起こすみたいなので，以下の記事を参考にして対処してみてください．
+またfish(friendly interactive shell)を使っている方はsourceからエラーを起こすみたいなのですが，公式がまだ対応していないみたいですので，bash もしくは zsh に戻して起動してみてください．
 
-> http://encry1024.hatenablog.com/entry/2017/01/25/232036
