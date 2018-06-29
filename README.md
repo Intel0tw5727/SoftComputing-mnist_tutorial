@@ -94,7 +94,7 @@ or "license" for more information.
 anacondaをインストールし終えたら、今回の実行環境を作るため以下のコマンドを実行する。
 
 ```
-pip install jupyter tensorflow keras matplotlib
+pip install jupyter tensorflow keras matplotlib dask
 ```
 
 インストールが終わったら，ターミナルで`python`を起動し，
