@@ -6,13 +6,14 @@
 
 ## Tensorflowとは
 
-+ Googleのディープラーニングモジュール
-+ 2018 Jan 時点でv1.4.1
++ Google製の数値計算ライブラリ(一般的には深層学習ライブラリとして浸透)
++ 2018 Jul 時点でv1.8.0
 	+ 行列演算
-	+ DeepLearningに関する関数
-	+ 画像処理関数などなど
+    + 「計算グラフ」に基づいたコード構造
+	+ DeepLearningに関する関数やクラスが豊富
 
-+ **初心者にはソースを書くのが難しい！！**
++ ですが
+    + **初心者にはソースを書くのが難しい！！**
 
 ---
 
@@ -30,7 +31,7 @@
 ## Keras(Tensorflow)の動作環境
 
 + Python3.5以上 推奨
-	+ Python2でもできるけど2020年にサポートが打ち切られるため3系を推奨！(3系最新は3.6.2) 
+	+ Python2でもできるけど2020年にサポートが打ち切られるため3系を推奨！(3系最新は3.6.6, 3.7.0) 
 + pyenv というPythonのバージョン管理ソフトによる管理
 + モジュール管理ソフト
 	+ pip
@@ -62,7 +63,7 @@ source ~/.zshrc
 + AnacondaはPythonと数値解析関連のモジュールを一括でインストールしてくれる非常に優秀なディストリビューション．
 + 数値解析に必要なnumpyやpandas,グラフ描画のmatplotlib等様々なライブラリがAnacondaにまとまっている．
 ```
-pyenv install anaconda3-5.0.0
+pyenv install anaconda3-5.1.0
 ```
 
 Pythonとモジュールを一括で入れるので少々時間がかかる．
@@ -71,7 +72,7 @@ Pythonとモジュールを一括で入れるので少々時間がかかる．
 ### pyenv内のpython(Anaconda3)を使うための設定
 
 ```
-pyenv global anaconda3-5.0.0
+pyenv global anaconda3-5.1.0
 pyenv rehash
 ```
 
